@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "eegdaniel"
+version = "0.1.0"
+description = ""
+authors = ["Björn <bjoernwe@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.1.0"
+plotly = "^5.17.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
